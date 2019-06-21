@@ -43,7 +43,7 @@ my_auth = requests_oauthlib.OAuth1(
 # query prep
 queryCats = pd.read_csv("./weather_word_list.csv")
 
-# subset to only two categories -- RATE LIMIT FOR TWITTER STREMING API
+# subset to only two categories -- RATE LIMIT FOR TWITTER STREMING API - only 2 streams runnign at the same time
 # rain, sun, clouds, wind, hot, cold, humid
 queryCats = queryCats[["humid"]]
 
