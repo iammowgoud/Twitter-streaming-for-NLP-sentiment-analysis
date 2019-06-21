@@ -1,0 +1,10 @@
+﻿rain,sun,clouds,wind,hot,cold,humid
+drizzle,sunny,cloudy,breeze,hot,hail,humid
+showers,sun,gloomy,blustery,warm,sleet,humidity
+rain,clear,gfoggy,windy,canicule,snow,
+downpour,sunshine,foggy,gale,,snowflake,
+flood,,overcast,hurricane,,blizzard,
+storm,,clear,tornado,,cool,
+thunder,,cloud,,,cold,
+lightning,,clouds,,,freezing,
+weather,weather,weather,weather,weather,weather,weather
