@@ -45,7 +45,7 @@ queryCats = pd.read_csv("./weather_word_list.csv")
 
 # subset to only two categories -- RATE LIMIT FOR TWITTER STREMING API
 # rain, sun, clouds, wind, hot, cold, humid
-queryCats = queryCats[["hot", "cold"]]
+queryCats = queryCats[["humid"]]
 
 def start_Stream(category, searchQuery):
     print(f'========= Stream for {category} STARTED')
